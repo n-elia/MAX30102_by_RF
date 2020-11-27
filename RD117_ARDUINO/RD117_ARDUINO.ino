@@ -36,7 +36,7 @@
 #include "max30102.h"
 
 //#define DEBUG // Uncomment for debug output to the Serial stream
-#define USE_ADALOGGER // Comment out if you don't have ADALOGGER itself but your MCU still can handle this code
+//#define USE_ADALOGGER // Comment out if you don't have ADALOGGER itself but your MCU still can handle this code
 //#define TEST_MAXIM_ALGORITHM // Uncomment if you want to include results returned by the original MAXIM algorithm
 //#define SAVE_RAW_DATA // Uncomment if you want raw data coming out of the sensor saved to SD card. Red signal first, IR second.
 
@@ -393,4 +393,3 @@ void blinkLED(const byte led, bool isOK)
   }
 }
 #endif
-
